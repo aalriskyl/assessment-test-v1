@@ -1,0 +1,11 @@
+{
+  "src/main.tsx": {
+    "file": "assets/main-CgZj-Wie.js",
+    "name": "main",
+    "src": "src/main.tsx",
+    "isEntry": true,
+    "css": [
+      "assets/main-DeNWLPT1.css"
+    ]
+  }
+}

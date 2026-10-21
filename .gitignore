@@ -1,0 +1,61 @@
+# Local dependencies and caches
+.deps/
+.tools/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+frontend/.vite/
+frontend/dist/
+
+# Environment values and private credentials; keep the documented template
+.env
+.env.*
+.envrc
+!.env.example
+.secrets/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials.json
+service-account*.json
+*-service-account.json
+
+# Runtime databases, uploaded documents and temporary artifacts
+instance/
+tmp/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+test-results/
+*.inspect.ndjson
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local QA notes and screenshots
+/docs/verification.md
+/docs/images/
+
+# Confidential source briefs are not submission artifacts
+Programming Test*.pdf
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep procurement/static/app, including .vite/manifest.json, in the repository.
+# The Python-only quick start needs these built assets.

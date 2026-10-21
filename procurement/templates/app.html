@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#21664f">
+  <title>Procure</title>
+  {% for stylesheet in entry.get('css',[]) %}<link rel="stylesheet" href="{{ url_for('static',filename='app/' ~ stylesheet) }}">{% endfor %}
+  <script type="module" src="{{ url_for('static',filename='app/' ~ entry.file) }}"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="application/json" id="initial-state">{{ state|tojson }}</script>
+  <noscript>Enable JavaScript to use this workspace.</noscript>
+</body>
+</html>
