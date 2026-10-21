@@ -2,6 +2,12 @@
 
 A procurement application for Programming Test v4, with a Python/Flask backend and a modular React + TypeScript frontend using shadcn/ui. It follows a request through revision, approval, supplier quotation comparison, itemized purchase order and accepted deliveries.
 
+## Evaluation use
+
+This project is submitted for recruitment evaluation. Reviewers may inspect, clone and run it for that purpose.
+
+Commercial or operational use, or redistribution outside the recruitment evaluation process, requires separate written permission from the project author. This notice does not restrict rights granted by applicable law, GitHub's terms or the licenses of third-party dependencies and components.
+
 ## Quick start
 
 Run the commands from the repository root in PowerShell, using Python 3.12. SQLite works without an additional service. The built frontend is included, so Node is only needed when changing or rebuilding frontend source.
